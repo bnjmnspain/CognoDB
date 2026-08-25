@@ -1,0 +1,6 @@
+FOR u IN users
+FOR f IN 1..1 INBOUND u follows
+COLLECT id = u.id WITH COUNT INTO cnt
+RETURN id, cnt
+ORDER BY cnt DESC
+LIMIT 100

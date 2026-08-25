@@ -1,0 +1,2 @@
+FOR v, e IN 1..1 OUTBOUND CONCAT('users/', $id) follows
+RETURN v.id

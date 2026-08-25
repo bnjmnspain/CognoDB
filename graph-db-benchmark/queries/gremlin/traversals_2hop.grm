@@ -1,0 +1,1 @@
+g.V().has('User','id',id).out('FOLLOWS').out('FOLLOWS').values('id')

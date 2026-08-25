@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/
+results/
+*.tar.gz
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/

@@ -1,0 +1,43 @@
+neo4j:
+  aura:
+    uri: bolt://<your-aura-instance>.databases.neo4j.io
+    username: neo4j
+    password: <your-aura-password>
+    database: neo4j
+
+cognodb:
+  cloud:
+    uri: bolt+s://db-7b414c05.bravo.databases.cognodb.com
+    username: cognodb
+    password: cbd8c323cf394535ec701503c44e8712
+    database: cognodb
+
+neptune:
+  endpoint: <your-neptune-endpoint>.cluster-<region>.neptune.amazonaws.com
+  port: 8182
+  region: us-east-1
+  access_key: <optional>
+  secret_key: <optional>
+
+arangodb:
+  cloud:
+    host: https://<your-arangodb-instance>.arangodb.cloud
+    username: root
+    password: <your-arangodb-password>
+    database: _system
+
+memgraph:
+  docker:
+    host: localhost
+    port: 7687
+    username: memgraph
+    password: memgraph
+    database: memgraph
+
+benchmark:
+  iterations: 100
+  warmup_iterations: 10
+  concurrency_levels: [1, 10, 40]
+  target_relationships: 88234
+  dataset: snap_ego_facebook
+  random_seed: 42

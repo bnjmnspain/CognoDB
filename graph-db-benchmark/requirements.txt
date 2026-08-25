@@ -1,0 +1,10 @@
+neo4j==5.26.0
+gremlinpython==3.7.3
+python-arango>=7.0.0
+pyyaml>=6.0
+tqdm>=4.66
+requests>=2.32
+numpy>=2.0
+scipy>=1.14
+matplotlib>=3.9
+pandas>=2.2

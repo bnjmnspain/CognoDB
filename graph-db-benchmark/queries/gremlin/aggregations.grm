@@ -1,0 +1,1 @@
+g.V().hasLabel('User').as('n').out('FOLLOWS').groupCount('m').by('n').by('id').order(local).by(values, decr).limit(local,100)
